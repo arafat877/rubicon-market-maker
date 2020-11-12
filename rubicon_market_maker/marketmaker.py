@@ -7,7 +7,7 @@ import time
 
 class MarketMaker:
     # Constructor which takes a pair, spread, and refresh_rate
-    def __init__(self, pair, spread, refresh_rate):
+    def __init__(self, pair, spread, refresh_rate, web3APILink):
         #Map inputs to Class Variables
         self.pair = pair.split('/')
         self.baseAsset = self.pair[0]
@@ -16,5 +16,5 @@ class MarketMaker:
         self.refresh_rate = refresh_rate
 
         #Connect to Web3 provider
-
+        web3 = Web3(Web3.HTTPProvider(web3APILink))
         print('***Bot Initialization Complete***\n')

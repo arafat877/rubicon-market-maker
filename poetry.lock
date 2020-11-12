@@ -525,6 +525,14 @@ rust-backend = ["rusty-rlp (>=0.1.15,<0.2)"]
 test = ["hypothesis (==5.19.0)", "pytest (==5.4.3)", "tox (>=2.9.1,<3)"]
 
 [[package]]
+name = "rusty-rlp"
+version = "0.1.15"
+description = "Python RLP serialization/deserialization based on a rapid fast Rust implementation."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "six"
 version = "1.15.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -625,7 +633,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "76fac337a1f1d5cc63ca6c47915c3c44f80acf19ed256eb78f1a030bbc1f4b97"
+content-hash = "6ac0158992a56672608ba86994c5fe3d627e975a3dcc83272832d642f2dec5bf"
 
 [metadata.files]
 astroid = [
@@ -868,6 +876,20 @@ requests = [
 rlp = [
     {file = "rlp-2.0.0-py2.py3-none-any.whl", hash = "sha256:7a97f9cda26aa6eca8ce71feab1041ab64b81636828e8fe70b6495502ce49e28"},
     {file = "rlp-2.0.0.tar.gz", hash = "sha256:b066d83fc145f5a6fa68b53896b8400328b7be3c20bc7f50cb0a70d8f26de1b3"},
+]
+rusty-rlp = [
+    {file = "rusty_rlp-0.1.15-cp35-cp35m-macosx_10_7_x86_64.whl", hash = "sha256:bcc276b6580b3cc6c1850cd5e55e3cb99048ccb9c5a67c1f8aeecf42ef7a9d44"},
+    {file = "rusty_rlp-0.1.15-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:68c33264599596689a9398c65495e48bf2cd463ec5a9d79d1832e8a7740975a4"},
+    {file = "rusty_rlp-0.1.15-cp35-none-win_amd64.whl", hash = "sha256:c42bdbfa83b63b88b071ee0a42dcbca20b6f3d04c2777dc03efa29b9d1673499"},
+    {file = "rusty_rlp-0.1.15-cp36-cp36m-macosx_10_7_x86_64.whl", hash = "sha256:9afd4a7c1d1b2611b6bb255454c1a84b076a5c3c56351febd7742f79211d188c"},
+    {file = "rusty_rlp-0.1.15-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:2fdca107e2bdc552c01d23021d64ec6b1d9efba181c74faa01a1c092356bf8a0"},
+    {file = "rusty_rlp-0.1.15-cp36-none-win_amd64.whl", hash = "sha256:ebbeb4a3b083d69a12c627389d2588fc28bb5cdd9b2d79db87d2d952972b854c"},
+    {file = "rusty_rlp-0.1.15-cp37-cp37m-macosx_10_7_x86_64.whl", hash = "sha256:cc5ccd82ac396711521fda3e5387073103ff4c85289c7bc4fd983531bfbf7969"},
+    {file = "rusty_rlp-0.1.15-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:62a7a5e3ec6ed82012169644b759d00c113dd64a65ee0b0d7beac85ef3cca183"},
+    {file = "rusty_rlp-0.1.15-cp37-none-win_amd64.whl", hash = "sha256:354cb5f6bcc879ae7ea68411918a0a1dbc6ff42c2ab5d0f72209e0a9da77355c"},
+    {file = "rusty_rlp-0.1.15-cp38-cp38-macosx_10_7_x86_64.whl", hash = "sha256:8f38dd4747c49a3a039b66422f0b9ebc77d5a52fde3e0036e93d4bbc18dee93f"},
+    {file = "rusty_rlp-0.1.15-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:77565040bb51fa488b7f1bc4be9b7f9a597f0ffba9f2f08bdbd726eb291c4468"},
+    {file = "rusty_rlp-0.1.15-cp38-none-win_amd64.whl", hash = "sha256:9f968d04ebeac6670cec0ab5800b13c6e5b366cd862600e18d086c090738d8e4"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
