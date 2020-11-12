@@ -1,2 +1,5 @@
+import rubicon_market_maker.marketmaker as mm
+
 def main():
-    print("hello world")
+    x = mm.MarketMaker()
+
