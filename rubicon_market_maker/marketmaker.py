@@ -17,4 +17,7 @@ class MarketMaker:
 
         #Connect to Web3 provider
         web3 = Web3(Web3.HTTPProvider(web3APILink))
-        print('***Bot Initialization Complete***\n')
+        if (web3.isConnected()):
+            print("Connected to Web3 provider via:", web3APILink)
+        else:
+            print("ERROR - Unable to connect to Web3 provider")

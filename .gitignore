@@ -1,1 +1,4 @@
 rubicon_market_maker/__pycache__
+secret.csv
+**/secret.csv
+**/__pycache__
