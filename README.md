@@ -19,5 +19,5 @@ Here is an overview of the logic flow for the current bot implementation:
 7. Track accrued RBCN, P&L, and key statistics for the User throughout operation.
 
 Ideas for future improvements:
-[] - Implement logic that accounts for gas fees and network costs when executing a market-making strategy
-[] - Package the bot into an app with an easy-to-understand UI in order to track P&L, risk, and Token rewards.
+* Implement logic that accounts for gas fees and network costs when executing a market-making strategy
+* Package the bot into an app with an easy-to-understand UI in order to track P&L, risk, and Token rewards.
