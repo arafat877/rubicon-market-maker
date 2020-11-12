@@ -6,6 +6,7 @@ authors = ["bghughes <32072172+bghughes@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+web3 = "^5.13.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
