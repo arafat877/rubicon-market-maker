@@ -12,6 +12,8 @@ rlp = "^2.0.0"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 pylint = "^2.6.0"
+autopep8 = "^1.5.4"
+black = {version = "^20.8b1", allow-prereleases = true}
 
 [tool.poetry.scripts]
 main = "rubicon_market_maker.main:main"
