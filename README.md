@@ -21,3 +21,9 @@ Here is an overview of the logic flow for the current bot implementation:
 Ideas for future improvements:
 * Implement logic that accounts for gas fees and network costs when executing a market-making strategy
 * Package the bot into an app with an easy-to-understand UI in order to track P&L, risk, and Token rewards.
+
+To Do:
+- Dynamic Order Placing: orders are placed automatically and optimally (e.g. one of the orders gets filled then a new collar around the new midpoint should trigger) and orders should not be repeated
+- Gas Optimization: better solution than just Web3.estimateGas?
+- Live Profit and Loss functionality: the bot should only be engaging in market making that is profitable (net of gas)
+- Hosting: make the bot very easy to host online and provide automated market making
