@@ -14,12 +14,14 @@ def main():
     with open('../rubicon-market-maker/secret.csv') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for row in (reader):
+            print(row)
             if row[0] == 'api': 
                 web3APILink = row[1].strip()
             if row[0] == 'address': 
                 bot_address = row[1].strip()
             if row[0] == 'privateKey': 
                 privateKey = row[1].strip()
+                break
         csvfile.close()
         
     #Initialize Market Making bot

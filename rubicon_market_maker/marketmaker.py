@@ -209,6 +209,7 @@ class MarketMaker:
             signed_tx = self.web3.eth.account.signTransaction(txData, PK)
             tx_hash = self.web3.eth.sendRawTransaction(signed_tx.rawTransaction)
             print('Sent TX of ' + desc, self.web3.toHex(tx_hash))
+            print(tx_hash)
             return True
 
 
